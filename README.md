@@ -11,6 +11,7 @@ Of course, the board can also be adapted for other faders by adjusting the footp
 * +5V for the microcontroller
 * 8-10V for the motor
 * 1x interrupt pin
+
 All signals are looped through on the board. This means that several boards can be placed next to each other and easily connected to each other.
 
 ### Funktion
