@@ -14,14 +14,14 @@ Of course, the board can also be adapted for other faders by adjusting the footp
 
 All signals are looped through on the board. This means that several boards can be placed next to each other and easily connected to each other.
 
-### Funktion
+## Funktion
 The board also has the option to control a NeoPixel LED and an additional button. The NeoPixel LED can be fully controlled via the I2C bus, including RGB color, on, off, and brightness. This allows, for example, changing the color based on the set level or displaying notifications.
 The fader has a touch function that can also be evaluated and is internally used to trigger an interrupt. You only need to check when the interrupt line is pulled LOW.
 The optional button input can be queried and also triggers an interrupt when pressed.
 The interrupt is only reset when the value on the fader that caused the interrupt is read. This ensures that no unnecessary queries are made and no changes are lost.
 In the example code, the interrupt line is connected to a pin on the microcontroller that can also trigger an interrupt. This ensures that the microcontroller responds immediately to changes. On an Arduino UNO or Nano, pins 2 and 3 can be used.
 To set an I2C address for the fader, you need to connect to the fader using the serial console and simply enter the address in the format 0x08. The address is then stored in ROM and used on the next startup. In theory, you can operate 127 faders on one bus ;-).
-The functions of the library are thoroughly documented in I2cServoSlide.h, and all functions are used in the example code. The example code also shows how to control multiple sliders.
+The functions of the library are thoroughly documented in I2cServoFader.h, and all functions are used in the example code. The example code also shows how to control multiple sliders.
 
 # Example Code Description
 This example code demonstrates how to control I2C servo sliders using an Arduino. The code supports one slider and can be extended to two sliders by uncommenting the relevant sections. The sliders can be controlled via serial commands, and their positions and LED colors can be adjusted based on analog values.
@@ -41,3 +41,6 @@ The interrupt is triggered by a change in the state of the connected pin (e.g., 
 + Yellow (analog value ≈ 128)
 + Red (analog value = 255)
 The LED color transitions smoothly between these values based on the analog value.
+# Sources
+Part of the circuit board layout is from this project:
+https://github.com/GadgetReboot/PSM60_Fader_Controller
