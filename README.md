@@ -14,7 +14,7 @@ Of course, the board can also be adapted for other faders by adjusting the footp
 
 All signals are looped through on the board. This means that several boards can be placed next to each other and easily connected to each other.
 
-### Funktion
+## Funktion
 The board also has the option to control a NeoPixel LED and an additional button. The NeoPixel LED can be fully controlled via the I2C bus, including RGB color, on, off, and brightness. This allows, for example, changing the color based on the set level or displaying notifications.
 The fader has a touch function that can also be evaluated and is internally used to trigger an interrupt. You only need to check when the interrupt line is pulled LOW.
 The optional button input can be queried and also triggers an interrupt when pressed.
