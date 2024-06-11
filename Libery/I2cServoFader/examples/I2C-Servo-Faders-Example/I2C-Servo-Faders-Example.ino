@@ -116,8 +116,9 @@ void setup() {
   // Set the interrupt pin
   pinMode(2, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(2), handleInterrupt, FALLING);
-
-  Serial.println("Ready to receive commands...");
+if (Serial.available()){
+    Serial.println("Ready to receive commands...");
+}
 }
 
 /************************************************************************************/
@@ -134,16 +135,18 @@ void loop() {
   // Handle interrupt
   if (interruptOccurred) {
     interruptOccurred = false;
-    
+
     // Read analog value and optio register from slider1
     uint8_t analogValue1 = slider1.readAnalogValue();
     uint8_t optioState1 = slider1.readOptio();
-    
+
     // Print the read values to the serial console
-    Serial.print("Slider 1 - Analog value: ");
-    Serial.println(analogValue1);
-    Serial.print("Slider 1 - OPTIO state: ");
-    Serial.println(optioState1);
+    if (Serial.available()){
+      Serial.print("Slider 1 - Analog value: ");
+      Serial.println(analogValue1);
+      Serial.print("Slider 1 - OPTIO state: ");
+      Serial.println(optioState1);
+    }
     
     // Read analog value and optio register from slider2 (Commented out for now)
     /*
@@ -151,10 +154,12 @@ void loop() {
     uint8_t optioState2 = slider2.readOptio();
     
     // Print the read values to the serial console
-    Serial.print("Slider 2 - Analog value: ");
-    Serial.println(analogValue2);
-    Serial.print("Slider 2 - OPTIO state: ");
-    Serial.println(optioState2);
+    if (Serial.available(){
+      Serial.print("Slider 2 - Analog value: ");
+      Serial.println(analogValue2);
+      Serial.print("Slider 2 - OPTIO state: ");
+      Serial.println(optioState2);
+    }
 
     // Update LED colors based on analog values
     updateLEDColor(slider2, analogValue2);
@@ -177,7 +182,7 @@ void loop() {
         Serial.println(position);
         updateLEDColor(slider1, slider1.readAnalogValue());
       }
-    } 
+    }
     /*
     else if (input.startsWith("sliderpos2=")) {
       int position = input.substring(11).toInt();
@@ -203,5 +208,5 @@ void loop() {
     }
   }
 
-  delay(50); // Small delay to prevent overwhelming the I2C bus
+  delay(60);  // Small delay to prevent overwhelming the I2C bus
 }
