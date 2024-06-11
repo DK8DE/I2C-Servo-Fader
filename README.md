@@ -1,5 +1,5 @@
 # I2C-Servo-Fader 
-Description
+## Description
 This project consists of a board for a motor fader, the code for the microcontroller on the board, and a library to control this fader with an Arduino or an ESP32. The compatible faders are:
 + Behringer X-Touch Motor-Fader MF100T or
 + Soundwell SM10001NKA0X-HA1
@@ -36,7 +36,7 @@ When an interrupt occurs, the code reads the analog value and optio state from t
 The interrupt is triggered by a change in the state of the connected pin (e.g., pin 2).
 
 ### LED Color Representation:
-Green (analog value = 0)
-Yellow (analog value ≈ 128)
-Red (analog value = 255)
++ Green (analog value = 0)
++ Yellow (analog value ≈ 128)
++ Red (analog value = 255)
 The LED color transitions smoothly between these values based on the analog value.
