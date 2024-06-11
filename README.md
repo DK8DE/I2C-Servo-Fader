@@ -21,7 +21,7 @@ The optional button input can be queried and also triggers an interrupt when pre
 The interrupt is only reset when the value on the fader that caused the interrupt is read. This ensures that no unnecessary queries are made and no changes are lost.
 In the example code, the interrupt line is connected to a pin on the microcontroller that can also trigger an interrupt. This ensures that the microcontroller responds immediately to changes. On an Arduino UNO or Nano, pins 2 and 3 can be used.
 To set an I2C address for the fader, you need to connect to the fader using the serial console and simply enter the address in the format 0x08. The address is then stored in ROM and used on the next startup. In theory, you can operate 127 faders on one bus ;-).
-The functions of the library are thoroughly documented in I2cServoSlide.h, and all functions are used in the example code. The example code also shows how to control multiple sliders.
+The functions of the library are thoroughly documented in I2cServoFader.h, and all functions are used in the example code. The example code also shows how to control multiple sliders.
 
 # Example Code Description
 This example code demonstrates how to control I2C servo sliders using an Arduino. The code supports one slider and can be extended to two sliders by uncommenting the relevant sections. The sliders can be controlled via serial commands, and their positions and LED colors can be adjusted based on analog values.
@@ -41,3 +41,6 @@ The interrupt is triggered by a change in the state of the connected pin (e.g., 
 + Yellow (analog value ≈ 128)
 + Red (analog value = 255)
 The LED color transitions smoothly between these values based on the analog value.
+# Sources
+Part of the circuit board layout is from this project:
+https://github.com/GadgetReboot/PSM60_Fader_Controller
