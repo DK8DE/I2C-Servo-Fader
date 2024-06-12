@@ -263,45 +263,24 @@
 <wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
 </package>
-<package name="SOIC127P1032X265-20N">
-<description>&lt;b&gt;SO20&lt;/b&gt;&lt;br&gt;
+<package name="LEDM2012X80N">
+<description>&lt;b&gt;WL-SMCW&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-4.712" y="5.715" dx="1.925" dy="0.7" layer="1"/>
-<smd name="2" x="-4.712" y="4.445" dx="1.925" dy="0.7" layer="1"/>
-<smd name="3" x="-4.712" y="3.175" dx="1.925" dy="0.7" layer="1"/>
-<smd name="4" x="-4.712" y="1.905" dx="1.925" dy="0.7" layer="1"/>
-<smd name="5" x="-4.712" y="0.635" dx="1.925" dy="0.7" layer="1"/>
-<smd name="6" x="-4.712" y="-0.635" dx="1.925" dy="0.7" layer="1"/>
-<smd name="7" x="-4.712" y="-1.905" dx="1.925" dy="0.7" layer="1"/>
-<smd name="8" x="-4.712" y="-3.175" dx="1.925" dy="0.7" layer="1"/>
-<smd name="9" x="-4.712" y="-4.445" dx="1.925" dy="0.7" layer="1"/>
-<smd name="10" x="-4.712" y="-5.715" dx="1.925" dy="0.7" layer="1"/>
-<smd name="11" x="4.712" y="-5.715" dx="1.925" dy="0.7" layer="1"/>
-<smd name="12" x="4.712" y="-4.445" dx="1.925" dy="0.7" layer="1"/>
-<smd name="13" x="4.712" y="-3.175" dx="1.925" dy="0.7" layer="1"/>
-<smd name="14" x="4.712" y="-1.905" dx="1.925" dy="0.7" layer="1"/>
-<smd name="15" x="4.712" y="-0.635" dx="1.925" dy="0.7" layer="1"/>
-<smd name="16" x="4.712" y="0.635" dx="1.925" dy="0.7" layer="1"/>
-<smd name="17" x="4.712" y="1.905" dx="1.925" dy="0.7" layer="1"/>
-<smd name="18" x="4.712" y="3.175" dx="1.925" dy="0.7" layer="1"/>
-<smd name="19" x="4.712" y="4.445" dx="1.925" dy="0.7" layer="1"/>
-<smd name="20" x="4.712" y="5.715" dx="1.925" dy="0.7" layer="1"/>
+<smd name="1" x="-0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.925" y1="6.75" x2="5.925" y2="6.75" width="0.05" layer="51"/>
-<wire x1="5.925" y1="6.75" x2="5.925" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="5.925" y1="-6.75" x2="-5.925" y2="-6.75" width="0.05" layer="51"/>
-<wire x1="-5.925" y1="-6.75" x2="-5.925" y2="6.75" width="0.05" layer="51"/>
-<wire x1="-3.75" y1="6.4" x2="3.75" y2="6.4" width="0.1" layer="51"/>
-<wire x1="3.75" y1="6.4" x2="3.75" y2="-6.4" width="0.1" layer="51"/>
-<wire x1="3.75" y1="-6.4" x2="-3.75" y2="-6.4" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="-6.4" x2="-3.75" y2="6.4" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="5.13" x2="-2.48" y2="6.4" width="0.1" layer="51"/>
-<wire x1="-3.4" y1="6.4" x2="3.4" y2="6.4" width="0.2" layer="21"/>
-<wire x1="3.4" y1="6.4" x2="3.4" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="3.4" y1="-6.4" x2="-3.4" y2="-6.4" width="0.2" layer="21"/>
-<wire x1="-3.4" y1="-6.4" x2="-3.4" y2="6.4" width="0.2" layer="21"/>
-<wire x1="-5.675" y1="6.415" x2="-3.75" y2="6.415" width="0.2" layer="21"/>
+<wire x1="-1.8" y1="0.925" x2="1.8" y2="0.925" width="0.05" layer="51"/>
+<wire x1="1.8" y1="0.925" x2="1.8" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="1.8" y1="-0.925" x2="-1.8" y2="-0.925" width="0.05" layer="51"/>
+<wire x1="-1.8" y1="-0.925" x2="-1.8" y2="0.925" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.1" x2="-0.475" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="-1.475" y2="0.625" width="0.2" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.2" layer="21"/>
 </package>
 <package name="LEDC2012X80N">
 <description>&lt;b&gt;150080BS75000&lt;/b&gt;&lt;br&gt;
@@ -340,54 +319,6 @@
 <wire x1="2.275" y1="-1.625" x2="-2.275" y2="-1.625" width="0.05" layer="51"/>
 <wire x1="-2.275" y1="-1.625" x2="-2.275" y2="1.625" width="0.05" layer="51"/>
 </package>
-<package name="EEE1AA220WR">
-<description>&lt;b&gt;SMD_Lytic_B&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.75" y="0" dx="2.5" dy="1.6" layer="1"/>
-<smd name="2" x="1.75" y="0" dx="2.5" dy="1.6" layer="1"/>
-<text x="-0.35" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.35" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-4.5" y1="3.15" x2="3.8" y2="3.15" width="0.05" layer="51"/>
-<wire x1="3.8" y1="3.15" x2="3.8" y2="-3.15" width="0.05" layer="51"/>
-<wire x1="3.8" y1="-3.15" x2="-4.5" y2="-3.15" width="0.05" layer="51"/>
-<wire x1="-4.5" y1="-3.15" x2="-4.5" y2="3.15" width="0.05" layer="51"/>
-<wire x1="-3.625" y1="0" x2="-3.625" y2="0" width="0.05" layer="21"/>
-<wire x1="-3.625" y1="0" x2="-3.575" y2="0" width="0.05" layer="21" curve="180"/>
-<wire x1="-3.575" y1="0" x2="-3.575" y2="0" width="0.05" layer="21"/>
-<wire x1="-3.575" y1="0" x2="-3.625" y2="0" width="0.05" layer="21" curve="180"/>
-<wire x1="-2.15" y1="1" x2="-1" y2="2.15" width="0.1" layer="51"/>
-<wire x1="-1" y1="2.15" x2="2.15" y2="2.15" width="0.1" layer="51"/>
-<wire x1="2.15" y1="2.15" x2="2.15" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="2.15" y1="-2.15" x2="-1" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-1" y1="-2.15" x2="-2.15" y2="-1" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="-1" x2="-2.15" y2="1" width="0.1" layer="51"/>
-<wire x1="-2.15" y1="1" x2="-1" y2="2.15" width="0.1" layer="51"/>
-<wire x1="-1" y1="2.15" x2="2.15" y2="2.15" width="0.2" layer="21"/>
-<wire x1="2.15" y1="2.15" x2="2.15" y2="1.5" width="0.2" layer="21"/>
-<wire x1="-1" y1="-2.15" x2="2.15" y2="-2.15" width="0.2" layer="21"/>
-<wire x1="2.15" y1="-2.15" x2="2.15" y2="-1.5" width="0.2" layer="21"/>
-<wire x1="2.15" y1="1.5" x2="2.15" y2="2.15" width="0.2" layer="21"/>
-<wire x1="2.15" y1="2.15" x2="-1" y2="2.15" width="0.2" layer="21"/>
-</package>
-<package name="LEDM2012X80N">
-<description>&lt;b&gt;WL-SMCW&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.2" dy="1.05" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.8" y1="0.925" x2="1.8" y2="0.925" width="0.05" layer="51"/>
-<wire x1="1.8" y1="0.925" x2="1.8" y2="-0.925" width="0.05" layer="51"/>
-<wire x1="1.8" y1="-0.925" x2="-1.8" y2="-0.925" width="0.05" layer="51"/>
-<wire x1="-1.8" y1="-0.925" x2="-1.8" y2="0.925" width="0.05" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-1" y1="0.1" x2="-0.475" y2="0.625" width="0.1" layer="51"/>
-<wire x1="1" y1="0.625" x2="-1.475" y2="0.625" width="0.2" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.2" layer="21"/>
-</package>
 <package name="SOT95P280X145-5N">
 <description>&lt;b&gt;DBV (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -412,6 +343,67 @@
 <wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
 <wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.85" y1="1.5" x2="-0.65" y2="1.5" width="0.2" layer="21"/>
+</package>
+<package name="SOP65P760X160-24N">
+<description>&lt;b&gt;TB6575FNG,C,8,EL-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.562" y="3.575" dx="1.525" dy="0.45" layer="1"/>
+<smd name="2" x="-3.562" y="2.925" dx="1.525" dy="0.45" layer="1"/>
+<smd name="3" x="-3.562" y="2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="4" x="-3.562" y="1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="5" x="-3.562" y="0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="6" x="-3.562" y="0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="7" x="-3.562" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="8" x="-3.562" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="9" x="-3.562" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="10" x="-3.562" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="11" x="-3.562" y="-2.925" dx="1.525" dy="0.45" layer="1"/>
+<smd name="12" x="-3.562" y="-3.575" dx="1.525" dy="0.45" layer="1"/>
+<smd name="13" x="3.562" y="-3.575" dx="1.525" dy="0.45" layer="1"/>
+<smd name="14" x="3.562" y="-2.925" dx="1.525" dy="0.45" layer="1"/>
+<smd name="15" x="3.562" y="-2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="16" x="3.562" y="-1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="17" x="3.562" y="-0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="18" x="3.562" y="-0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="19" x="3.562" y="0.325" dx="1.525" dy="0.45" layer="1"/>
+<smd name="20" x="3.562" y="0.975" dx="1.525" dy="0.45" layer="1"/>
+<smd name="21" x="3.562" y="1.625" dx="1.525" dy="0.45" layer="1"/>
+<smd name="22" x="3.562" y="2.275" dx="1.525" dy="0.45" layer="1"/>
+<smd name="23" x="3.562" y="2.925" dx="1.525" dy="0.45" layer="1"/>
+<smd name="24" x="3.562" y="3.575" dx="1.525" dy="0.45" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.575" y1="4.4" x2="4.575" y2="4.4" width="0.05" layer="51"/>
+<wire x1="4.575" y1="4.4" x2="4.575" y2="-4.4" width="0.05" layer="51"/>
+<wire x1="4.575" y1="-4.4" x2="-4.575" y2="-4.4" width="0.05" layer="51"/>
+<wire x1="-4.575" y1="-4.4" x2="-4.575" y2="4.4" width="0.05" layer="51"/>
+<wire x1="-2.8" y1="4.15" x2="2.8" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2.8" y1="4.15" x2="2.8" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-4.15" x2="-2.8" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-4.15" x2="-2.8" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="3.5" x2="-2.15" y2="4.15" width="0.1" layer="51"/>
+<wire x1="-2.45" y1="4.15" x2="2.45" y2="4.15" width="0.2" layer="21"/>
+<wire x1="2.45" y1="4.15" x2="2.45" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="2.45" y1="-4.15" x2="-2.45" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="-2.45" y1="-4.15" x2="-2.45" y2="4.15" width="0.2" layer="21"/>
+<wire x1="-4.325" y1="4.15" x2="-2.8" y2="4.15" width="0.2" layer="21"/>
+</package>
+<package name="T491A">
+<description>&lt;b&gt;T491A-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<smd name="2" x="1.31" y="0" dx="1.8" dy="1.23" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
+<circle x="-2.66" y="0" radius="0.05" width="0.2" layer="25"/>
+<wire x1="-3.01" y1="1.8" x2="3.01" y2="1.8" width="0.05" layer="51"/>
+<wire x1="3.01" y1="1.8" x2="3.01" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="3.01" y1="-1.8" x2="-3.01" y2="-1.8" width="0.05" layer="51"/>
+<wire x1="-3.01" y1="-1.8" x2="-3.01" y2="1.8" width="0.05" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -451,35 +443,7 @@
 <pin name="VDD" x="35.56" y="-2.54" length="middle" rot="R180"/>
 <pin name="SNS" x="35.56" y="-5.08" length="middle" rot="R180"/>
 </symbol>
-<symbol name="L293DD">
-<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-25.4" x2="33.02" y2="2.54" width="0.254" layer="94"/>
-<wire x1="33.02" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
-<text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="ENABLE_1" x="0" y="0" length="middle"/>
-<pin name="INPUT_1" x="0" y="-2.54" length="middle"/>
-<pin name="OUTPUT_1" x="0" y="-5.08" length="middle"/>
-<pin name="GND_1" x="0" y="-7.62" length="middle"/>
-<pin name="GND_2" x="0" y="-10.16" length="middle"/>
-<pin name="GND_3" x="0" y="-12.7" length="middle"/>
-<pin name="GND_4" x="0" y="-15.24" length="middle"/>
-<pin name="OUTPUT_2" x="0" y="-17.78" length="middle"/>
-<pin name="INPUT_2" x="0" y="-20.32" length="middle"/>
-<pin name="VS" x="0" y="-22.86" length="middle"/>
-<pin name="VSS" x="38.1" y="0" length="middle" rot="R180"/>
-<pin name="INPUT_4" x="38.1" y="-2.54" length="middle" rot="R180"/>
-<pin name="OUTPUT_4" x="38.1" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND_8" x="38.1" y="-7.62" length="middle" rot="R180"/>
-<pin name="GND_7" x="38.1" y="-10.16" length="middle" rot="R180"/>
-<pin name="GND_6" x="38.1" y="-12.7" length="middle" rot="R180"/>
-<pin name="GND_5" x="38.1" y="-15.24" length="middle" rot="R180"/>
-<pin name="OUTPUT_3" x="38.1" y="-17.78" length="middle" rot="R180"/>
-<pin name="INPUT_3" x="38.1" y="-20.32" length="middle" rot="R180"/>
-<pin name="ENABLE_2" x="38.1" y="-22.86" length="middle" rot="R180"/>
-</symbol>
-<symbol name="150080RS75000">
+<symbol name="150080GS75000">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
 <wire x1="8.89" y1="2.54" x2="6.35" y2="5.08" width="0.254" layer="94"/>
@@ -561,7 +525,52 @@
 <pin name="1" x="0" y="0" visible="pad" length="middle"/>
 <pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
-<symbol name="EEE-HB1C100R">
+<symbol name="SN74LVC1G14DBVR">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="NC" x="0" y="0" length="middle" direction="nc"/>
+<pin name="A" x="0" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-5.08" length="middle"/>
+<pin name="Y" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="VCC" x="25.4" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TB6612FNG,C,8,EL">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-30.48" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="AO1_1" x="0" y="-10.16" length="middle"/>
+<pin name="AO1_2" x="0" y="-12.7" length="middle"/>
+<pin name="PGND1_1" x="33.02" y="-20.32" length="middle" rot="R180"/>
+<pin name="PGND1_2" x="33.02" y="-22.86" length="middle" rot="R180"/>
+<pin name="AO2_1" x="0" y="-15.24" length="middle"/>
+<pin name="AO2_2" x="0" y="-17.78" length="middle"/>
+<pin name="BO2_1" x="0" y="-25.4" length="middle"/>
+<pin name="BO2_2" x="0" y="-27.94" length="middle"/>
+<pin name="PGND2_1" x="33.02" y="-27.94" length="middle" rot="R180"/>
+<pin name="PGND2_2" x="33.02" y="-25.4" length="middle" rot="R180"/>
+<pin name="BO1_1" x="0" y="-22.86" length="middle"/>
+<pin name="BO1_2" x="0" y="-20.32" length="middle"/>
+<pin name="VM1" x="33.02" y="-10.16" length="middle" rot="R180"/>
+<pin name="PWMA" x="0" y="-5.08" length="middle"/>
+<pin name="AIN2" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="AIN1" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="VCC" x="0" y="0" length="middle"/>
+<pin name="STBY" x="0" y="-2.54" length="middle"/>
+<pin name="GND" x="33.02" y="-17.78" length="middle" rot="R180"/>
+<pin name="BIN1" x="33.02" y="-5.08" length="middle" rot="R180"/>
+<pin name="BIN2" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="PWMB" x="0" y="-7.62" length="middle"/>
+<pin name="VM3" x="33.02" y="-12.7" length="middle" rot="R180"/>
+<pin name="VM2" x="33.02" y="-15.24" length="middle" rot="R180"/>
+</symbol>
+<symbol name="T491A106M016AT7280">
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.842" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="5.842" y1="-2.54" x2="5.842" y2="2.54" width="0.254" layer="94"/>
@@ -580,45 +589,6 @@
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
-</symbol>
-<symbol name="150080GS75000">
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
-<wire x1="8.89" y1="2.54" x2="6.35" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<text x="12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="12.7" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="K" x="0" y="0" visible="pad" length="short"/>
-<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
-<vertex x="5.08" y="0"/>
-<vertex x="10.16" y="2.54"/>
-<vertex x="10.16" y="-2.54"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="5.334" y="4.318"/>
-<vertex x="4.572" y="3.556"/>
-<vertex x="3.81" y="5.08"/>
-</polygon>
-<polygon width="0.254" layer="94">
-<vertex x="7.874" y="4.318"/>
-<vertex x="7.112" y="3.556"/>
-<vertex x="6.35" y="5.08"/>
-</polygon>
-</symbol>
-<symbol name="SN74LVC1G14DBVR">
-<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="NC" x="0" y="0" length="middle" direction="nc"/>
-<pin name="A" x="0" y="-2.54" length="middle"/>
-<pin name="GND" x="0" y="-5.08" length="middle"/>
-<pin name="Y" x="25.4" y="0" length="middle" rot="R180"/>
-<pin name="VCC" x="25.4" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -688,69 +658,26 @@ Source: &lt;a href="http://www.atmel.com/images/atmel-9541-at42-qtouch-bsw-at42q
 </device>
 </devices>
 </deviceset>
-<deviceset name="L293DD" prefix="IC">
-<description>&lt;b&gt;L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.st.com/resource/en/datasheet/l293d.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="150080GS75000" prefix="LED">
+<description>&lt;b&gt;150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="L293DD" x="0" y="0"/>
+<gate name="G$1" symbol="150080GS75000" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC127P1032X265-20N">
-<connects>
-<connect gate="G$1" pin="ENABLE_1" pad="1"/>
-<connect gate="G$1" pin="ENABLE_2" pad="11"/>
-<connect gate="G$1" pin="GND_1" pad="4"/>
-<connect gate="G$1" pin="GND_2" pad="5"/>
-<connect gate="G$1" pin="GND_3" pad="6"/>
-<connect gate="G$1" pin="GND_4" pad="7"/>
-<connect gate="G$1" pin="GND_5" pad="14"/>
-<connect gate="G$1" pin="GND_6" pad="15"/>
-<connect gate="G$1" pin="GND_7" pad="16"/>
-<connect gate="G$1" pin="GND_8" pad="17"/>
-<connect gate="G$1" pin="INPUT_1" pad="2"/>
-<connect gate="G$1" pin="INPUT_2" pad="9"/>
-<connect gate="G$1" pin="INPUT_3" pad="12"/>
-<connect gate="G$1" pin="INPUT_4" pad="19"/>
-<connect gate="G$1" pin="OUTPUT_1" pad="3"/>
-<connect gate="G$1" pin="OUTPUT_2" pad="8"/>
-<connect gate="G$1" pin="OUTPUT_3" pad="13"/>
-<connect gate="G$1" pin="OUTPUT_4" pad="18"/>
-<connect gate="G$1" pin="VS" pad="10"/>
-<connect gate="G$1" pin="VSS" pad="20"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="L293DD, Motor Driver, 4.5  36 V, 20-Pin SOIC" constant="no"/>
-<attribute name="HEIGHT" value="2.65mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="L293DD" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-L293DD" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/L293DD?qs=m4gxtLzGBzoksItTiSkcgg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="150080RS75000" prefix="LED">
-<description>&lt;b&gt;LED,Wurth Elektronik,150080RS75000 Wurth Elektronik 150080RS75000, WL-SMCW Series Red LED, 625 nm 2012 (0805) Clear, Rectangle Lens SMD package&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/150080RS75000.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="150080RS75000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LEDC2012X80N">
+<device name="" package="LEDM2012X80N">
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="K" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="LED,Wurth Elektronik,150080RS75000 Wurth Elektronik 150080RS75000, WL-SMCW Series Red LED, 625 nm 2012 (0805) Clear, Rectangle Lens SMD package" constant="no"/>
+<attribute name="DESCRIPTION" value="150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package" constant="no"/>
 <attribute name="HEIGHT" value="0.8mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="150080RS75000" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-150080RS75000" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="150080GS75000" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-150080GS75000" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -856,56 +783,6 @@ Source: &lt;a href="https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"&
 </device>
 </devices>
 </deviceset>
-<deviceset name="EEE-HB1C100R" prefix="C">
-<description>&lt;b&gt;SMD elec cap 10uF 16V Panasonic Aluminium Electrolytic Capacitor 10uF 16 V dc 4mm Surface Mount series HB SMD lifetime 2000h&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1157.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="EEE-HB1C100R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="EEE1AA220WR">
-<connects>
-<connect gate="G$1" pin="+" pad="1"/>
-<connect gate="G$1" pin="-" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="SMD elec cap 10uF 16V Panasonic Aluminium Electrolytic Capacitor 10uF 16 V dc 4mm Surface Mount series HB SMD lifetime 2000h" constant="no"/>
-<attribute name="HEIGHT" value="5.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="EEE-HB1C100R" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-EEE-HB1C100R" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-HB1C100R?qs=Ywefl8B65e6oXncmMfFctg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="150080GS75000" prefix="LED">
-<description>&lt;b&gt;150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://katalog.we-online.com/led/datasheet/150080GS75000.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="150080GS75000" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LEDM2012X80N">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="K" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="150080GS75000, Wurth Elektronik WL-SMCW 520 nm Green LED, 2012 (0805) Clear SMD package" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Wurth Elektronik" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="150080GS75000" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-150080GS75000" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080GS75000?qs=2kOmHSv6VfQRoTEZVk1mGA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SN74LVC1G14DBVR" prefix="IC">
 <description>&lt;b&gt;TEXAS INSTRUMENTS - SN74LVC1G14DBVR - IC, SCHMITT TRIGGER INVERTER, SMD&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1136296.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -929,6 +806,78 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 <attribute name="MANUFACTURER_PART_NUMBER" value="SN74LVC1G14DBVR" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="595-SN74LVC1G14DBVR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G14DBVR?qs=dT9u2OTAaVWRIgCrQFnxuQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TB6612FNG,C,8,EL" prefix="IC">
+<description>&lt;b&gt;otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://toshiba.semicon-storage.com/info/docget.jsp?did=10660&amp;prodName=TB6612FNG"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TB6612FNG,C,8,EL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP65P760X160-24N">
+<connects>
+<connect gate="G$1" pin="AIN1" pad="21"/>
+<connect gate="G$1" pin="AIN2" pad="22"/>
+<connect gate="G$1" pin="AO1_1" pad="1"/>
+<connect gate="G$1" pin="AO1_2" pad="2"/>
+<connect gate="G$1" pin="AO2_1" pad="5"/>
+<connect gate="G$1" pin="AO2_2" pad="6"/>
+<connect gate="G$1" pin="BIN1" pad="17"/>
+<connect gate="G$1" pin="BIN2" pad="16"/>
+<connect gate="G$1" pin="BO1_1" pad="11"/>
+<connect gate="G$1" pin="BO1_2" pad="12"/>
+<connect gate="G$1" pin="BO2_1" pad="7"/>
+<connect gate="G$1" pin="BO2_2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="18"/>
+<connect gate="G$1" pin="PGND1_1" pad="3"/>
+<connect gate="G$1" pin="PGND1_2" pad="4"/>
+<connect gate="G$1" pin="PGND2_1" pad="9"/>
+<connect gate="G$1" pin="PGND2_2" pad="10"/>
+<connect gate="G$1" pin="PWMA" pad="23"/>
+<connect gate="G$1" pin="PWMB" pad="15"/>
+<connect gate="G$1" pin="STBY" pad="19"/>
+<connect gate="G$1" pin="VCC" pad="20"/>
+<connect gate="G$1" pin="VM1" pad="24"/>
+<connect gate="G$1" pin="VM2" pad="13"/>
+<connect gate="G$1" pin="VM3" pad="14"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="otor / Motion / Ignition Controllers &amp; Drivers Brush Motor Driver IC" constant="no"/>
+<attribute name="HEIGHT" value="1.6mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Toshiba" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TB6612FNG,C,8,EL" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="757-TB6612FNGC8EL" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Toshiba/TB6612FNGC8EL?qs=rsevcuukUAy2UalRuv4E%2FQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T491A106M016AT7280" prefix="C">
+<description>&lt;b&gt;T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 20%, 16 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3 Ohms, 1600 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://content.kemet.com/datasheets/KEM_T2005_T491.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="T491A106M016AT7280" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="T491A">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 20%, 16 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3 Ohms, 1600 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 9000, 156  Weeks" constant="no"/>
+<attribute name="HEIGHT" value="1.8mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="KEMET" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T491A106M016AT7280" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-T491A106M16AT7280" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/T491A106M016AT7280?qs=WOKUqv%2F%2FT%2FbXhYcv8zpvIg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5959,19 +5908,18 @@ DIN A3, landscape with extra doc field</description>
 </classes>
 <groups>
 <schematic_group name="TOUCH-CONTROLLER"/>
-<schematic_group name="STATUS-LED"/>
+<schematic_group name="POWER-LEDS"/>
 <schematic_group name="MOTOR-FADER"/>
 <schematic_group name="MICROCONTROLLER"/>
 <schematic_group name="MOTOR-DIVER"/>
 </groups>
 <parts>
-<part name="U$1" library="Slider" deviceset="SM10001NKA0X-HA1" device="" value="MF100T"/>
+<part name="FADER" library="Slider" deviceset="SM10001NKA0X-HA1" device="" value="MF100T"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="ATTINY804-SSNR" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="AT42QT1010-TSHR" device="" value="AT42QT1010"/>
-<part name="IC3" library="SamacSys_Parts" deviceset="L293DD" device=""/>
-<part name="+5V" library="SamacSys_Parts" deviceset="150080RS75000" device=""/>
-<part name="+9V" library="SamacSys_Parts" deviceset="150080RS75000" device=""/>
-<part name="TOUCH" library="SamacSys_Parts" deviceset="150080YS75000" device=""/>
+<part name="LED1" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="LED2" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
+<part name="LED3" library="SamacSys_Parts" deviceset="150080YS75000" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
@@ -5981,7 +5929,6 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C2" library="SamacSys_Parts" deviceset="C0805Y103K4RACTU" device="" value="10nF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100K"/>
 <part name="C3" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C4" library="SamacSys_Parts" deviceset="C0805C333K4RACTU" device="" value="22nF"/>
@@ -5989,32 +5936,19 @@ DIN A3, landscape with extra doc field</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
-<part name="C6" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
-<part name="C7" library="SamacSys_Parts" deviceset="EEE-HB1C100R" device="" value="10uF"/>
-<part name="C8" library="SamacSys_Parts" deviceset="EEE-HB1C100R" device="" value="10uF"/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="UPDI" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="0"/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SV4" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="0"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="IO1" library="con-lstb_IBM" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="0"/>
-<part name="IO2" library="con-lstb_IBM" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="0"/>
-<part name="U$2" library="LOGOS" deviceset="DK8DE" device="SS"/>
-<part name="LB-LED" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
-<part name="NEO" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="0"/>
+<part name="SV1" library="con-lstb_IBM" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="0"/>
+<part name="SV2" library="con-lstb_IBM" deviceset="MA06-1" device="" package3d_urn="urn:adsk.eagle:package:8340/1" value="0"/>
+<part name="LOGO" library="LOGOS" deviceset="DK8DE" device="SS"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
+<part name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-1" device="" package3d_urn="urn:adsk.eagle:package:8339/1" value="0"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -6025,8 +5959,18 @@ DIN A3, landscape with extra doc field</description>
 <part name="IC4" library="SamacSys_Parts" deviceset="SN74LVC1G14DBVR" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
+<part name="SV5" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-23-2021" device="" package3d_urn="urn:adsk.eagle:package:8078633/1"/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="IC5" library="SamacSys_Parts" deviceset="TB6612FNG,C,8,EL" device=""/>
+<part name="C5" library="SamacSys_Parts" deviceset="T491A106M016AT7280" device="" value="10uF"/>
+<part name="C6" library="SamacSys_Parts" deviceset="T491A106M016AT7280" device="" value="10uF"/>
+<part name="C7" library="SamacSys_Parts" deviceset="T491A106M016AT7280" device="" value="10uF"/>
+<part name="C8" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
+<part name="C9" library="SamacSys_Parts" deviceset="C0805C104K1RACTU" device="" value="100nF"/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6035,9 +5979,9 @@ DIN A3, landscape with extra doc field</description>
 <text x="-165.1" y="121.92" size="6.4516" layer="98">I2C Servo Faders</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-5.08" y="81.28" smashed="yes" grouprefs="MOTOR-FADER">
-<attribute name="NAME" x="-5.08" y="93.98" size="1.27" layer="94"/>
-<attribute name="VALUE" x="-5.08" y="76.2" size="1.27" layer="94"/>
+<instance part="FADER" gate="G$1" x="-7.62" y="73.66" smashed="yes" grouprefs="MOTOR-FADER">
+<attribute name="NAME" x="-7.62" y="86.36" size="1.27" layer="94"/>
+<attribute name="VALUE" x="-7.62" y="68.58" size="1.27" layer="94"/>
 </instance>
 <instance part="IC1" gate="G$1" x="25.4" y="-12.7" smashed="yes" grouprefs="MICROCONTROLLER">
 <attribute name="NAME" x="31.75" y="-5.08" size="1.778" layer="95" align="center-left"/>
@@ -6047,30 +5991,26 @@ DIN A3, landscape with extra doc field</description>
 <attribute name="NAME" x="-95.25" y="83.82" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-95.25" y="81.28" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC3" gate="G$1" x="-132.08" y="10.16" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="NAME" x="-128.27" y="17.78" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-128.27" y="15.24" size="1.778" layer="96" align="center-left"/>
+<instance part="LED1" gate="G$1" x="66.04" y="81.28" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="NAME" x="78.74" y="85.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="82.55" size="1.778" layer="96"/>
 </instance>
-<instance part="+5V" gate="G$1" x="66.04" y="68.58" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="78.74" y="72.39" size="1.778" layer="95"/>
-<attribute name="VALUE" x="83.82" y="69.85" size="1.778" layer="96"/>
+<instance part="LED2" gate="G$1" x="66.04" y="71.12" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="NAME" x="78.74" y="74.93" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="+9V" gate="G$1" x="66.04" y="58.42" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="78.74" y="62.23" size="1.778" layer="95"/>
-<attribute name="VALUE" x="83.82" y="59.69" size="1.778" layer="96"/>
-</instance>
-<instance part="TOUCH" gate="G$1" x="-167.64" y="76.2" smashed="yes" grouprefs="TOUCH-CONTROLLER">
+<instance part="LED3" gate="G$1" x="-167.64" y="76.2" smashed="yes" grouprefs="TOUCH-CONTROLLER">
 <attribute name="NAME" x="-165.1" y="87.63" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-165.1" y="85.09" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="-25.4" y="81.28" smashed="yes" rot="R180" grouprefs="MOTOR-FADER">
-<attribute name="VALUE" x="-27.94" y="78.74" size="1.778" layer="96"/>
+<instance part="P+1" gate="1" x="-27.94" y="73.66" smashed="yes" rot="R180" grouprefs="MOTOR-FADER">
+<attribute name="VALUE" x="-30.48" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="-25.4" y="91.44" smashed="yes" rot="R180" grouprefs="MOTOR-FADER">
-<attribute name="VALUE" x="-22.86" y="93.98" size="1.778" layer="96" rot="R180"/>
+<instance part="GND1" gate="1" x="-27.94" y="83.82" smashed="yes" rot="R180" grouprefs="MOTOR-FADER">
+<attribute name="VALUE" x="-25.4" y="86.36" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="25.4" y="-7.62" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER">
-<attribute name="NAME" x="16.51" y="-1.27" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="NAME" x="21.336" y="-1.27" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="21.59" y="-3.81" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="P+2" gate="1" x="25.4" y="15.24" smashed="yes" grouprefs="MICROCONTROLLER">
@@ -6092,10 +6032,6 @@ DIN A3, landscape with extra doc field</description>
 </instance>
 <instance part="GND4" gate="1" x="-25.4" y="-40.64" smashed="yes" grouprefs="MICROCONTROLLER">
 <attribute name="VALUE" x="-27.94" y="-43.18" size="1.778" layer="96"/>
-</instance>
-<instance part="R3" gate="G$1" x="86.36" y="-10.16" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER">
-<attribute name="NAME" x="87.63" y="-8.6614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="-10.922" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="-111.76" y="88.9" smashed="yes" grouprefs="TOUCH-CONTROLLER">
 <attribute name="NAME" x="-102.87" y="82.55" size="1.778" layer="95" align="center-left"/>
@@ -6122,60 +6058,26 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND6" gate="1" x="-134.62" y="71.12" smashed="yes" grouprefs="TOUCH-CONTROLLER">
 <attribute name="VALUE" x="-137.16" y="68.58" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-144.78" y="0" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="VALUE" x="-147.32" y="-2.54" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="55.88" y="73.66" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="VALUE" x="53.34" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="-81.28" y="0" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="VALUE" x="-83.82" y="-2.54" size="1.778" layer="96"/>
+<instance part="P+6" gate="1" x="106.68" y="83.82" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="VALUE" x="109.22" y="86.36" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C5" gate="G$1" x="-149.86" y="-25.4" smashed="yes" rot="R90" grouprefs="MOTOR-DIVER">
-<attribute name="NAME" x="-140.97" y="-16.51" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-138.43" y="-19.05" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="C6" gate="G$1" x="-73.66" y="-2.54" smashed="yes" rot="R90" grouprefs="MOTOR-DIVER">
-<attribute name="NAME" x="-72.39" y="-1.27" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-77.47" y="1.27" size="1.778" layer="96" rot="R90" align="center-left"/>
-</instance>
-<instance part="C7" gate="G$1" x="-157.48" y="-12.7" smashed="yes" rot="R270" grouprefs="MOTOR-DIVER">
-<attribute name="NAME" x="-163.83" y="-19.05" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-166.37" y="-16.51" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="C8" gate="G$1" x="25.4" y="7.62" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER">
-<attribute name="NAME" x="16.51" y="1.27" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="16.51" y="3.81" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="GND9" gate="1" x="-152.4" y="-27.94" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="VALUE" x="-154.94" y="-30.48" size="1.778" layer="96"/>
-</instance>
-<instance part="GND10" gate="1" x="-73.66" y="-7.62" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="VALUE" x="-76.2" y="-10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="P+4" gate="1" x="-58.42" y="12.7" smashed="yes" grouprefs="MOTOR-DIVER">
-<attribute name="VALUE" x="-55.88" y="15.24" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND11" gate="1" x="55.88" y="60.96" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="VALUE" x="53.34" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="P+6" gate="1" x="106.68" y="71.12" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="VALUE" x="109.22" y="73.66" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="UPDI" gate="G$1" x="-73.66" y="-88.9" smashed="yes" rot="R90">
+<instance part="SV4" gate="G$1" x="-73.66" y="-88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-66.04" y="-90.17" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="-79.502" y="-90.17" size="1.778" layer="95" rot="R90"/>
-</instance>
-<instance part="P+8" gate="1" x="86.36" y="0" smashed="yes" grouprefs="MICROCONTROLLER">
-<attribute name="VALUE" x="88.9" y="2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+5" gate="1" x="-76.2" y="91.44" smashed="yes" grouprefs="TOUCH-CONTROLLER">
 <attribute name="VALUE" x="-73.66" y="93.98" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R2" gate="G$1" x="86.36" y="68.58" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="82.55" y="64.9986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="65.278" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="86.36" y="81.28" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="NAME" x="82.55" y="77.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="77.978" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="86.36" y="58.42" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="82.55" y="54.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="87.63" y="55.118" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="86.36" y="71.12" smashed="yes" grouprefs="POWER-LEDS">
+<attribute name="NAME" x="82.55" y="67.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="67.818" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="-114.3" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="-111.76" y="-60.96" size="1.778" layer="96" rot="R180"/>
@@ -6183,31 +6085,20 @@ DIN A3, landscape with extra doc field</description>
 <instance part="P+10" gate="1" x="-88.9" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="-86.36" y="-60.96" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IO1" gate="1" x="-119.38" y="-88.9" smashed="yes" rot="R90">
+<instance part="SV1" gate="1" x="-119.38" y="-88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-106.68" y="-90.17" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="-127.762" y="-90.17" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IO2" gate="1" x="-93.98" y="-88.9" smashed="yes" rot="R90">
+<instance part="SV2" gate="1" x="-93.98" y="-88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-81.28" y="-90.17" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="-102.362" y="-90.17" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="U$2" gate="G$1" x="182.372" y="-110.236" smashed="yes"/>
-<instance part="LB-LED" gate="G$1" x="66.04" y="83.82" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="78.74" y="92.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="78.74" y="90.17" size="1.778" layer="96"/>
-</instance>
-<instance part="R7" gate="G$1" x="93.98" y="83.82" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="NAME" x="90.17" y="80.2386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="95.25" y="80.518" size="1.778" layer="96"/>
-</instance>
-<instance part="P+11" gate="1" x="106.68" y="88.9" smashed="yes" grouprefs="STATUS-LED">
-<attribute name="VALUE" x="109.22" y="91.44" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R9" gate="G$1" x="7.62" y="-27.94" smashed="yes" grouprefs="MICROCONTROLLER">
+<instance part="LOGO" gate="G$1" x="182.372" y="-110.236" smashed="yes"/>
+<instance part="R3" gate="G$1" x="7.62" y="-27.94" smashed="yes" grouprefs="MICROCONTROLLER">
 <attribute name="NAME" x="3.81" y="-31.5214" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.89" y="-31.242" size="1.778" layer="96"/>
 </instance>
-<instance part="NEO" gate="G$1" x="-139.7" y="-88.9" smashed="yes" rot="R90">
+<instance part="SV3" gate="G$1" x="-139.7" y="-88.9" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-132.08" y="-90.17" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="-145.542" y="-90.17" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -6245,15 +6136,51 @@ DIN A3, landscape with extra doc field</description>
 <instance part="GND16" gate="1" x="137.16" y="-7.62" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER">
 <attribute name="VALUE" x="139.7" y="-5.08" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="X1" gate="-1" x="-60.96" y="-88.9" smashed="yes" rot="R270">
+<instance part="SV5" gate="-1" x="-60.96" y="-88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="-61.722" y="-91.44" size="1.524" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-59.563" y="-88.138" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="X1" gate="-2" x="-63.5" y="-88.9" smashed="yes" rot="R270">
+<instance part="SV5" gate="-2" x="-63.5" y="-88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="-64.262" y="-91.44" size="1.524" layer="95" rot="R270"/>
 </instance>
 <instance part="P+14" gate="1" x="-60.96" y="-63.5" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC5" gate="G$1" x="-134.62" y="5.08" smashed="yes" grouprefs="MOTOR-DIVER">
+<attribute name="NAME" x="-128.27" y="12.7" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-128.27" y="10.16" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C5" gate="G$1" x="25.4" y="7.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="17.018" y="5.334" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="22.352" y="13.208" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="C6" gate="G$1" x="-162.56" y="5.08" smashed="yes" rot="R270" grouprefs="MOTOR-DIVER">
+<attribute name="NAME" x="-170.942" y="0" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-171.958" y="-3.302" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C7" gate="G$1" x="-81.28" y="-5.08" smashed="yes" rot="R270" grouprefs="MOTOR-DIVER">
+<attribute name="NAME" x="-77.978" y="-11.176" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-78.486" y="-8.89" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C8" gate="G$1" x="-149.86" y="5.08" smashed="yes" rot="R270" grouprefs="MOTOR-DIVER">
+<attribute name="NAME" x="-155.448" y="3.81" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-150.622" y="-3.81" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
+<instance part="C9" gate="G$1" x="-88.9" y="-5.08" smashed="yes" rot="R270" grouprefs="MOTOR-DIVER">
+<attribute name="NAME" x="-94.742" y="-7.112" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-98.806" y="-9.144" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND17" gate="1" x="-86.36" y="-20.32" smashed="yes" grouprefs="MOTOR-DIVER">
+<attribute name="VALUE" x="-88.9" y="-22.86" size="1.778" layer="96"/>
+</instance>
+<instance part="GND18" gate="1" x="-157.48" y="-10.16" smashed="yes" grouprefs="MOTOR-DIVER">
+<attribute name="VALUE" x="-160.02" y="-12.7" size="1.778" layer="96"/>
+</instance>
+<instance part="P+11" gate="1" x="-165.1" y="7.62" smashed="yes" grouprefs="MOTOR-DIVER">
+<attribute name="VALUE" x="-162.56" y="10.16" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND19" gate="1" x="-101.6" y="-27.94" smashed="yes" grouprefs="MOTOR-DIVER">
+<attribute name="VALUE" x="-104.14" y="-30.48" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -6268,12 +6195,12 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <wire x1="-121.92" y1="-81.28" x2="-121.92" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-121.92" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO1" gate="1" pin="5"/>
+<pinref part="SV1" gate="1" pin="5"/>
 </segment>
 <segment>
 <wire x1="-96.52" y1="-81.28" x2="-96.52" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-96.52" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO2" gate="1" pin="5"/>
+<pinref part="SV2" gate="1" pin="5"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -6285,132 +6212,119 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <wire x1="-119.38" y1="-81.28" x2="-119.38" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-119.38" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO1" gate="1" pin="4"/>
+<pinref part="SV1" gate="1" pin="4"/>
 </segment>
 <segment>
 <wire x1="-93.98" y1="-81.28" x2="-93.98" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-93.98" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO2" gate="1" pin="4"/>
+<pinref part="SV2" gate="1" pin="4"/>
 </segment>
 </net>
-<net name="MOT-A" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="INPUT_1"/>
-<wire x1="-132.08" y1="7.62" x2="-137.16" y2="7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-137.16" y="7.62" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="INPUT_4"/>
-<wire x1="-93.98" y1="7.62" x2="-88.9" y2="7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-88.9" y="7.62" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
+<net name="AIN1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA5"/>
 <wire x1="25.4" y1="-17.78" x2="20.32" y2="-17.78" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="20.32" y="-17.78" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="AIN1"/>
+<wire x1="-101.6" y1="5.08" x2="-96.52" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<label x="-96.52" y="5.08" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
+</segment>
 </net>
-<net name="ENABLE" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="ENABLE_1"/>
-<wire x1="-132.08" y1="10.16" x2="-137.16" y2="10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-137.16" y="10.16" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="ENABLE_2"/>
-<wire x1="-93.98" y1="-12.7" x2="-88.9" y2="-12.7" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-88.9" y="-12.7" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
+<net name="PWM" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB3"/>
 <wire x1="25.4" y1="-25.4" x2="20.32" y2="-25.4" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="20.32" y="-25.4" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="PWMA"/>
+<wire x1="-134.62" y1="0" x2="-139.7" y2="0" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<label x="-139.7" y="0" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
+</segment>
 </net>
 <net name="MOT+" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTPUT_1"/>
-<wire x1="-132.08" y1="5.08" x2="-137.16" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-137.16" y="5.08" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
+<pinref part="FADER" gate="G$1" pin="A"/>
+<wire x1="10.16" y1="81.28" x2="15.24" y2="81.28" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<label x="15.24" y="81.28" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-FADER"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTPUT_4"/>
-<wire x1="-93.98" y1="5.08" x2="-88.9" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-88.9" y="5.08" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="A"/>
-<wire x1="12.7" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
-<label x="17.78" y="88.9" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-FADER"/>
+<pinref part="IC5" gate="G$1" pin="AO1_1"/>
+<pinref part="IC5" gate="G$1" pin="AO1_2"/>
+<wire x1="-134.62" y1="-5.08" x2="-134.62" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<wire x1="-134.62" y1="-5.08" x2="-139.7" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-134.62" y="-5.08" grouprefs="MOTOR-DIVER"/>
+<label x="-139.7" y="-5.08" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
 </segment>
 </net>
 <net name="9V-DRIVE" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="VS"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="-132.08" y1="-12.7" x2="-149.86" y2="-12.7" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="-157.48" y1="-12.7" x2="-149.86" y2="-12.7" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-149.86" y="-12.7" grouprefs="MOTOR-DIVER"/>
-<wire x1="-157.48" y1="-12.7" x2="-160.02" y2="-12.7" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-157.48" y="-12.7" grouprefs="MOTOR-DIVER"/>
-<label x="-160.02" y="-12.7" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<label x="106.68" y="58.42" size="1.016" layer="95" xref="yes" grouprefs="STATUS-LED"/>
+<wire x1="91.44" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<label x="106.68" y="71.12" size="1.016" layer="95" xref="yes" grouprefs="POWER-LEDS"/>
 </segment>
 <segment>
-<pinref part="IO1" gate="1" pin="1"/>
-<wire x1="-111.76" y1="-81.28" x2="-111.76" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-111.76" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+<pinref part="IC5" gate="G$1" pin="VM1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="-101.6" y1="-5.08" x2="-88.9" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="-88.9" y1="-5.08" x2="-81.28" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-88.9" y="-5.08" grouprefs="MOTOR-DIVER"/>
+<pinref part="IC5" gate="G$1" pin="VM2"/>
+<wire x1="-101.6" y1="-5.08" x2="-101.6" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-5.08" grouprefs="MOTOR-DIVER"/>
+<pinref part="IC5" gate="G$1" pin="VM3"/>
+<wire x1="-101.6" y1="-7.62" x2="-101.6" y2="-10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-7.62" grouprefs="MOTOR-DIVER"/>
+<wire x1="-81.28" y1="-5.08" x2="-78.74" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-81.28" y="-5.08" grouprefs="MOTOR-DIVER"/>
+<label x="-78.74" y="-5.08" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
 </segment>
 <segment>
-<pinref part="IO2" gate="1" pin="1"/>
-<wire x1="-86.36" y1="-81.28" x2="-86.36" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-86.36" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+<label x="-124.46" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+<pinref part="SV1" gate="1" pin="6"/>
+<wire x1="-124.46" y1="-81.28" x2="-124.46" y2="-76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="-99.06" y1="-81.28" x2="-99.06" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-99.06" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+<pinref part="SV2" gate="1" pin="6"/>
 </segment>
 </net>
-<net name="MOT-B" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="INPUT_2"/>
-<wire x1="-132.08" y1="-10.16" x2="-137.16" y2="-10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-137.16" y="-10.16" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="INPUT_3"/>
-<wire x1="-93.98" y1="-10.16" x2="-88.9" y2="-10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-88.9" y="-10.16" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
+<net name="AIN2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA6"/>
 <wire x1="25.4" y1="-20.32" x2="20.32" y2="-20.32" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="20.32" y="-20.32" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="AIN2"/>
+<wire x1="-101.6" y1="2.54" x2="-96.52" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<label x="-96.52" y="2.54" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
+</segment>
 </net>
 <net name="MOT-" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTPUT_2"/>
-<wire x1="-132.08" y1="-7.62" x2="-137.16" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-137.16" y="-7.62" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
+<pinref part="FADER" gate="G$1" pin="B"/>
+<wire x1="10.16" y1="73.66" x2="15.24" y2="73.66" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<label x="15.24" y="73.66" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-FADER"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="OUTPUT_3"/>
-<wire x1="-93.98" y1="-7.62" x2="-88.9" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<label x="-88.9" y="-7.62" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
-<wire x1="12.7" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
-<label x="17.78" y="81.28" size="1.016" layer="95" xref="yes" grouprefs="MOTOR-FADER"/>
+<pinref part="IC5" gate="G$1" pin="AO2_1"/>
+<pinref part="IC5" gate="G$1" pin="AO2_2"/>
+<wire x1="-134.62" y1="-10.16" x2="-134.62" y2="-12.7" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<wire x1="-134.62" y1="-10.16" x2="-139.7" y2="-10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-134.62" y="-10.16" grouprefs="MOTOR-DIVER"/>
+<label x="-139.7" y="-10.16" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
 </segment>
 </net>
 <net name="SERVOTRACK" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="86.36" x2="-12.7" y2="86.36" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
-<label x="-12.7" y="86.36" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-FADER"/>
+<pinref part="FADER" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<label x="-15.24" y="78.74" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-FADER"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA7"/>
@@ -6423,8 +6337,8 @@ DIN A3, landscape with extra doc field</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="88.9" x2="-25.4" y2="88.9" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<pinref part="FADER" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="81.28" x2="-27.94" y2="81.28" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -6438,7 +6352,7 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="-25.4" y1="-38.1" x2="-25.4" y2="-35.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<pinref part="TOUCH" gate="G$1" pin="K"/>
+<pinref part="LED3" gate="G$1" pin="K"/>
 <wire x1="-167.64" y1="76.2" x2="-172.72" y2="76.2" width="0.1524" layer="91" grouprefs="TOUCH-CONTROLLER"/>
 <wire x1="-172.72" y1="76.2" x2="-172.72" y2="73.66" width="0.1524" layer="91" grouprefs="TOUCH-CONTROLLER"/>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -6453,91 +6367,42 @@ DIN A3, landscape with extra doc field</description>
 <junction x="-134.62" y="73.66" grouprefs="TOUCH-CONTROLLER"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND_1"/>
-<wire x1="-132.08" y1="2.54" x2="-137.16" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_2"/>
-<wire x1="-132.08" y1="0" x2="-137.16" y2="0" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-137.16" y1="2.54" x2="-137.16" y2="0" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_3"/>
-<wire x1="-132.08" y1="-2.54" x2="-137.16" y2="-2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-137.16" y1="0" x2="-137.16" y2="-2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-137.16" y="0" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_4"/>
-<wire x1="-132.08" y1="-5.08" x2="-137.16" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-137.16" y1="-2.54" x2="-137.16" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-137.16" y="-2.54" grouprefs="MOTOR-DIVER"/>
-<wire x1="-137.16" y1="2.54" x2="-144.78" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-137.16" y="2.54" grouprefs="MOTOR-DIVER"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="GND_8"/>
-<wire x1="-93.98" y1="2.54" x2="-88.9" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_7"/>
-<wire x1="-93.98" y1="0" x2="-88.9" y2="0" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-88.9" y1="2.54" x2="-88.9" y2="0" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_6"/>
-<wire x1="-93.98" y1="-2.54" x2="-88.9" y2="-2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-88.9" y1="0" x2="-88.9" y2="-2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-88.9" y="0" grouprefs="MOTOR-DIVER"/>
-<pinref part="IC3" gate="G$1" pin="GND_5"/>
-<wire x1="-93.98" y1="-5.08" x2="-88.9" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-88.9" y1="-2.54" x2="-88.9" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-88.9" y="-2.54" grouprefs="MOTOR-DIVER"/>
-<wire x1="-88.9" y1="2.54" x2="-81.28" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-88.9" y="2.54" grouprefs="MOTOR-DIVER"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C8" gate="G$1" pin="-"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="12.7" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="5.08" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <junction x="5.08" y="-7.62" grouprefs="MICROCONTROLLER"/>
+<pinref part="C5" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="C7" gate="G$1" pin="-"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-157.48" y1="-25.4" x2="-152.4" y2="-25.4" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-152.4" y1="-25.4" x2="-149.86" y2="-25.4" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-152.4" y="-25.4" grouprefs="MOTOR-DIVER"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-73.66" y1="-2.54" x2="-73.66" y2="-5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="+5V" gate="G$1" pin="K"/>
-<wire x1="66.04" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<pinref part="+9V" gate="G$1" pin="K"/>
-<wire x1="60.96" y1="68.58" x2="60.96" y2="63.5" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<wire x1="60.96" y1="63.5" x2="60.96" y2="58.42" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<wire x1="60.96" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<wire x1="60.96" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<junction x="60.96" y="63.5" grouprefs="STATUS-LED"/>
+<pinref part="LED1" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<pinref part="LED2" gate="G$1" pin="K"/>
+<wire x1="60.96" y1="81.28" x2="60.96" y2="76.2" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<wire x1="60.96" y1="76.2" x2="60.96" y2="71.12" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<wire x1="60.96" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<wire x1="60.96" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
+<junction x="60.96" y="76.2" grouprefs="POWER-LEDS"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IO2" gate="1" pin="3"/>
+<pinref part="SV2" gate="1" pin="3"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="-91.44" y1="-73.66" x2="-91.44" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IO1" gate="1" pin="3"/>
+<pinref part="SV1" gate="1" pin="3"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-116.84" y1="-73.66" x2="-116.84" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="UPDI" gate="G$1" pin="3"/>
+<pinref part="SV4" gate="G$1" pin="3"/>
 <wire x1="-76.2" y1="-81.28" x2="-76.2" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="NEO" gate="G$1" pin="3"/>
+<pinref part="SV3" gate="G$1" pin="3"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="-142.24" y1="-73.66" x2="-142.24" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
@@ -6546,11 +6411,44 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="IC4" gate="G$1" pin="GND"/>
 <wire x1="137.16" y1="-10.16" x2="137.16" y2="-12.7" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="-17.78" x2="-86.36" y2="-17.78" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="-86.36" y1="-17.78" x2="-88.9" y2="-17.78" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-86.36" y="-17.78" grouprefs="MOTOR-DIVER"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-162.56" y1="-7.62" x2="-157.48" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-157.48" y1="-7.62" x2="-149.86" y2="-7.62" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-157.48" y="-7.62" grouprefs="MOTOR-DIVER"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="PGND1_1"/>
+<pinref part="IC5" gate="G$1" pin="PGND2_1"/>
+<wire x1="-101.6" y1="-15.24" x2="-101.6" y2="-17.78" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<pinref part="IC5" gate="G$1" pin="PGND1_2"/>
+<wire x1="-101.6" y1="-17.78" x2="-101.6" y2="-20.32" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-17.78" grouprefs="MOTOR-DIVER"/>
+<pinref part="IC5" gate="G$1" pin="PGND2_2"/>
+<wire x1="-101.6" y1="-20.32" x2="-101.6" y2="-22.86" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-20.32" grouprefs="MOTOR-DIVER"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
+<wire x1="-101.6" y1="-12.7" x2="-101.6" y2="-15.24" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-15.24" grouprefs="MOTOR-DIVER"/>
+<wire x1="-101.6" y1="-22.86" x2="-101.6" y2="-25.4" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-101.6" y="-22.86" grouprefs="MOTOR-DIVER"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="-10.16" y1="83.82" x2="-25.4" y2="83.82" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<pinref part="FADER" gate="G$1" pin="3"/>
+<wire x1="-12.7" y1="76.2" x2="-27.94" y2="76.2" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -6560,9 +6458,9 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="25.4" y1="-7.62" x2="25.4" y2="7.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <junction x="25.4" y="-7.62" grouprefs="MICROCONTROLLER"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="C8" gate="G$1" pin="+"/>
+<pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="25.4" y1="7.62" x2="25.4" y2="12.7" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
-<junction x="25.4" y="7.62" grouprefs="MICROCONTROLLER"/>
+<junction x="25.4" y="7.62"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="SYNC/_MODE"/>
@@ -6570,22 +6468,9 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VSS"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="10.16" x2="-73.66" y2="10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<wire x1="-73.66" y1="10.16" x2="-58.42" y2="10.16" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
-<junction x="-73.66" y="10.16" grouprefs="MOTOR-DIVER"/>
-<pinref part="P+4" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="UPDI" gate="G$1" pin="2"/>
+<pinref part="SV4" gate="G$1" pin="2"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
 <wire x1="-73.66" y1="-81.28" x2="-73.66" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+8" gate="1" pin="+5V"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="-2.54" x2="86.36" y2="-5.08" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -6599,26 +6484,20 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="91.44" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
+<wire x1="91.44" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91" grouprefs="POWER-LEDS"/>
 </segment>
 <segment>
 <wire x1="-114.3" y1="-81.28" x2="-114.3" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="IO1" gate="1" pin="2"/>
+<pinref part="SV1" gate="1" pin="2"/>
 </segment>
 <segment>
 <wire x1="-88.9" y1="-81.28" x2="-88.9" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
-<pinref part="IO2" gate="1" pin="2"/>
+<pinref part="SV2" gate="1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="P+11" gate="1" pin="+5V"/>
-<wire x1="99.06" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<wire x1="106.68" y1="83.82" x2="106.68" y2="86.36" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-</segment>
-<segment>
-<pinref part="NEO" gate="G$1" pin="2"/>
+<pinref part="SV3" gate="G$1" pin="2"/>
 <wire x1="-139.7" y1="-81.28" x2="-139.7" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
@@ -6628,16 +6507,27 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="111.76" y1="-10.16" x2="111.76" y2="-15.24" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="S"/>
+<pinref part="SV5" gate="-1" pin="S"/>
 <wire x1="-60.96" y1="-86.36" x2="-60.96" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="P+14" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="-134.62" y1="5.08" x2="-149.86" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="-149.86" y1="5.08" x2="-162.56" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-149.86" y="5.08" grouprefs="MOTOR-DIVER"/>
+<wire x1="-162.56" y1="5.08" x2="-165.1" y2="5.08" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<junction x="-162.56" y="5.08" grouprefs="MOTOR-DIVER"/>
+<pinref part="P+11" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="TOUCH" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="T"/>
-<wire x1="-10.16" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
-<label x="-12.7" y="81.28" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-FADER"/>
+<pinref part="FADER" gate="G$1" pin="T"/>
+<wire x1="-12.7" y1="73.66" x2="-15.24" y2="73.66" width="0.1524" layer="91" grouprefs="MOTOR-FADER"/>
+<label x="-15.24" y="73.66" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-FADER"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -6659,29 +6549,26 @@ DIN A3, landscape with extra doc field</description>
 <label x="93.98" y="-22.86" size="1.016" layer="95" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<pinref part="UPDI" gate="G$1" pin="1"/>
+<pinref part="SV4" gate="G$1" pin="1"/>
 <wire x1="-71.12" y1="-81.28" x2="-71.12" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-71.12" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="INR" class="0">
 <segment>
-<wire x1="-99.06" y1="-81.28" x2="-99.06" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-99.06" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO2" gate="1" pin="6"/>
-</segment>
-<segment>
-<wire x1="-124.46" y1="-81.28" x2="-124.46" y2="-76.2" width="0.1524" layer="91"/>
-<label x="-124.46" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="IO1" gate="1" pin="6"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="-15.24" x2="91.44" y2="-15.24" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="91.44" y="-15.24" size="1.016" layer="95" xref="yes" grouprefs="MICROCONTROLLER"/>
 <pinref part="IC1" gate="G$1" pin="PA3_(EXTCLK)"/>
-<wire x1="68.58" y1="-15.24" x2="86.36" y2="-15.24" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
-<junction x="86.36" y="-15.24" grouprefs="MICROCONTROLLER"/>
+<wire x1="68.58" y1="-15.24" x2="91.44" y2="-15.24" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="1" pin="1"/>
+<wire x1="-111.76" y1="-81.28" x2="-111.76" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-111.76" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="1" pin="1"/>
+<wire x1="-86.36" y1="-81.28" x2="-86.36" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-86.36" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="TOUCH-IN" class="0">
@@ -6721,40 +6608,33 @@ DIN A3, landscape with extra doc field</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="TOUCH" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="76.2" x2="-147.32" y2="76.2" width="0.1524" layer="91" grouprefs="TOUCH-CONTROLLER"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="+5V" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="+9V" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LB-LED" class="0">
-<segment>
-<pinref part="LB-LED" gate="G$1" pin="K"/>
-<wire x1="66.04" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<label x="60.96" y="83.82" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="STATUS-LED"/>
-</segment>
+<net name="STBY" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA1"/>
 <wire x1="68.58" y1="-20.32" x2="73.66" y2="-20.32" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="73.66" y="-20.32" size="1.016" layer="95" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
-</net>
-<net name="N$5" class="0">
 <segment>
-<pinref part="LB-LED" gate="G$1" pin="A"/>
-<wire x1="81.28" y1="83.82" x2="88.9" y2="83.82" width="0.1524" layer="91" grouprefs="STATUS-LED"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="IC5" gate="G$1" pin="STBY"/>
+<wire x1="-134.62" y1="2.54" x2="-139.7" y2="2.54" width="0.1524" layer="91" grouprefs="MOTOR-DIVER"/>
+<label x="-139.7" y="2.54" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MOTOR-DIVER"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6766,19 +6646,19 @@ DIN A3, landscape with extra doc field</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="PB2"/>
 <wire x1="12.7" y1="-27.94" x2="25.4" y2="-27.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 </segment>
 </net>
 <net name="D-OUT" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="-27.94" x2="0" y2="-27.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER"/>
 <label x="0" y="-27.94" size="1.016" layer="95" rot="R180" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<pinref part="NEO" gate="G$1" pin="1"/>
+<pinref part="SV3" gate="G$1" pin="1"/>
 <wire x1="-137.16" y1="-81.28" x2="-137.16" y2="-76.2" width="0.1524" layer="91"/>
 <label x="-137.16" y="-76.2" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
@@ -6790,7 +6670,7 @@ DIN A3, landscape with extra doc field</description>
 <label x="142.24" y="-15.24" size="1.016" layer="95" xref="yes" grouprefs="MICROCONTROLLER"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-2" pin="S"/>
+<pinref part="SV5" gate="-2" pin="S"/>
 <wire x1="-63.5" y1="-86.36" x2="-63.5" y2="-81.28" width="0.1524" layer="91"/>
 <label x="-63.5" y="-81.28" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
