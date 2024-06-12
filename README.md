@@ -4,6 +4,7 @@ This project consists of a board for a motor fader, the code for the microcontro
 + Behringer X-Touch Motor-Fader MF100T
 + Soundwell SM10001NKA0X-HA1
 + RSA0N11M9A0J
+
 Of course, the board can also be adapted for other faders by adjusting the footprint.
 
 ### Connections on the Board:
