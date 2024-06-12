@@ -1,5 +1,7 @@
 # I2C-Servo-Fader 
 ![PCB](PCB/IMG/ServoFader.TB6612.1.png)
+> [!CAUTION]
+> The project is not yet complete. I am still waiting for the faders and the PCBs. Only then can I finish writing the code for the fader. The code still lacks the motor control in relation to the fader track.
 ## Description
 This project consists of a board for a motor fader, the code for the microcontroller on the board, and a library to control this fader with an Arduino or an ESP32. The compatible faders are:
 + Behringer X-Touch Motor-Fader MF100T
