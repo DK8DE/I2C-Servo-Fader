@@ -6,7 +6,7 @@
 #define EEPROM_I2C_ADDRESS 0      //!< EEPROM address for storing the I2C address
 #define NEOPIXEL_PIN 4            //!< Data pin for the NeoPixel LED
 #define NUMPIXELS 1               //!< Number of LEDs
-#define LB_LED 7                  //!< Life blink LED
+#define STBY 7                    //!< Standby pin
 #define ANALOG_PIN A0             //!< Pin for analogRead
 #define TOUCH_PIN 2               //!< Signal from the touch controller when the button is touched
 #define INTERRUPT 8               //!< Pin opposite to TOUCH_PIN
@@ -37,6 +37,8 @@ void receiveEvent(int howMany);
 void requestEvent();
 void updateAnalogValue();
 void stopMotor();
+void shortBrake();
+void standby();
 void rotateMotorClockwise();
 void rotateMotorCounterclockwise();
 
@@ -51,8 +53,6 @@ uint8_t registers[REGISTER_COUNT] = { 1,    //!< LED ON OFF 1=ON 0=OFF
                                       0 };  //!< Initial value for SET_POSITION register
 
 uint8_t i2cAddress;
-unsigned long previousMillis = 0; // Stores the last millisecond value
-const long interval = 1000; // Interval for blinking in milliseconds
 bool touchOccurred = false; // Flag to determine if a touch has been detected
 bool optioOccurred = false; // Flag to determine if an optio event has been detected
 
@@ -80,8 +80,9 @@ void setup() {
   // Initialize the analog pin
   pinMode(ANALOG_PIN, INPUT);
 
-  // Initialize the life blink LED
-  pinMode(LB_LED, OUTPUT);
+  // Initialize the STBY pin
+  pinMode(STBY, OUTPUT);
+  digitalWrite(STBY, LOW); // Default state
 
   // Initialize the TOUCH_PIN and INTERRUPT_PIN
   pinMode(TOUCH_PIN, INPUT);
@@ -146,13 +147,6 @@ void loop() {
     } else {
       Serial.println("Invalid format. Please enter the address in HEX format (e.g., 0x09).");
     }
-  }
-
-  // Blink the LED on pin D7
-  unsigned long currentMillis = millis();
-  if (currentMillis - previousMillis >= interval) {
-    previousMillis = currentMillis;
-    digitalWrite(LB_LED, !digitalRead(LB_LED)); // Toggle the state of the LED
   }
 
   delay(10);  // Update every 10 ms
@@ -246,14 +240,40 @@ void updateAnalogValue() {
 
 /************************************************************************************/
 /*!
-@brief Stops the motor by setting both direction pins to LOW and setting the PWM signal to 0
+@brief Stops the motor by first applying a short brake, then switching to standby
 @return none
 */
 /************************************************************************************/
 void stopMotor() {
+  shortBrake();
+  delay(10);
+  standby();
+}
+
+/************************************************************************************/
+/*!
+@brief Applies a short brake by setting both direction pins to HIGH and the PWM signal to 255
+@return none
+*/
+/************************************************************************************/
+void shortBrake() {
+  digitalWrite(DIR_PIN1, HIGH);
+  digitalWrite(DIR_PIN2, HIGH);
+  analogWrite(PWM_PIN, 255);
+  digitalWrite(STBY, HIGH);
+}
+
+/************************************************************************************/
+/*!
+@brief Sets the motor to standby by setting both direction pins and the PWM signal to LOW
+@return none
+*/
+/************************************************************************************/
+void standby() {
   digitalWrite(DIR_PIN1, LOW);
   digitalWrite(DIR_PIN2, LOW);
   analogWrite(PWM_PIN, 0);
+  digitalWrite(STBY, LOW);
 }
 
 /************************************************************************************/
@@ -266,6 +286,7 @@ void rotateMotorClockwise() {
   digitalWrite(DIR_PIN1, HIGH);
   digitalWrite(DIR_PIN2, LOW);
   analogWrite(PWM_PIN, 255);
+  digitalWrite(STBY, HIGH);
 }
 
 /************************************************************************************/
@@ -278,4 +299,5 @@ void rotateMotorCounterclockwise() {
   digitalWrite(DIR_PIN1, LOW);
   digitalWrite(DIR_PIN2, HIGH);
   analogWrite(PWM_PIN, 255);
+  digitalWrite(STBY, HIGH);
 }
