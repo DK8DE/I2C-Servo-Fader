@@ -1,4 +1,5 @@
 # I2C-Servo-Fader 
+![PCB](PCB/IMG/ServoFader.TB6612.1.png)
 ## Description
 This project consists of a board for a motor fader, the code for the microcontroller on the board, and a library to control this fader with an Arduino or an ESP32. The compatible faders are:
 + Behringer X-Touch Motor-Fader MF100T
@@ -51,6 +52,9 @@ Part of the circuit board layout is from this project:
 https://github.com/GadgetReboot/PSM60_Fader_Controller
 
 # Partlist
+This is the BOM. If you don't buy the faders in Germany but from the friendly Chinese, they cost about 12€ per piece.
+You can find them on AliExpress here: https://de.aliexpress.com/item/1005006910254678.html
+
 | Part | Value | Package | PART_NUMBER | Price €|
 |:--- |:--- |:--- |:--- |:--- |
 | C1 | 100nF | C0805 | C0805C104K1RACTU | 0.16 | 
