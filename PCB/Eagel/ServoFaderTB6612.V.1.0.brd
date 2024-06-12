@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1961,21 +1961,21 @@ W = angled&lt;p&gt;
 <attribute name="NAME" x="55.626" y="1.016" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C3" library="SamacSys_Parts" package="C0805" value="100nF" x="26.162" y="8.636" smashed="yes">
-<attribute name="DESCRIPTION" value="SMD Comm X7R, Ceramic, 0.1 uF, 10%, 100 VDC, 250 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 10 GOhms, 16 mg, 0805, 2mm, 1.25mm, 1mm, 0.75mm, 0.5mm, 2500, 78  Weeks, 80" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD Comm X7R, Ceramic, 0.022 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 45.4545 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 15000, 78  Weeks, 80" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="1.1mm" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="KEMET" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0805C104K1RACTU" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C0805C104K1R" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0805C104K1RACTU?qs=%252BnQd%252BVdkwTpk7hSy9esUqA%3D%3D" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0805C223K5RAC7210" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="76.962" y="-34.544" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.606" y="8.636" size="1.27" layer="25" align="center"/>
 </element>
 <element name="C4" library="SamacSys_Parts" package="C0805" value="22nF" x="31.242" y="12.446" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="SMD Comm X7R, Ceramic, 0.033 uF, 10%, 16 VDC, 40 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 3.5 % , 30.303 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 4000, 78  Weeks, 80" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="SMD Comm X7R, Ceramic, 0.022 uF, 10%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 2.5 % , 45.4545 GOhms, 11 mg, 0805, 2mm, 1.25mm, 0.78mm, 0.75mm, 0.5mm, 15000, 78  Weeks, 80" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="HEIGHT" value="1.1mm" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="KEMET" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0805C333K4RACTU" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="80-C0805C333K4R" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/KEMET/C0805C333K4RACTU?qs=2C4V03aRTluNFfWAly6Z3Q%3D%3D" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0805C223K5RAC7210" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="16.002" y="61.976" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.369" y="14.605" size="1.27" layer="25" rot="R180" align="center"/>
 </element>
 <element name="IC1" library="SamacSys_Parts" package="SOIC127P600X175-14N" value="ATTINY804-SSNR" x="55.118" y="8.89" smashed="yes" rot="R90">
