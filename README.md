@@ -6,7 +6,7 @@
 This project consists of a board for a motor fader, the code for the microcontroller on the board, and a library to control this fader with an Arduino or an ESP32. The compatible faders are:
 + Behringer X-Touch Motor-Fader MF100T
 + Soundwell SM10001NKA0X-HA1
-+ RSA0N11M9A0J
++ RSA0N11M9A07
 
 Of course, the board can also be adapted for other faders by adjusting the footprint.
 
@@ -55,7 +55,7 @@ https://github.com/GadgetReboot/PSM60_Fader_Controller
 
 # Partlist
 This is the BOM. If you don't buy the faders in Germany but from the friendly Chinese, they cost about 12€ per piece.
-You can find them on AliExpress here: https://de.aliexpress.com/item/1005006910254678.html
+You can find them on AliExpress here: [RSA0N11M9A0J](https://de.aliexpress.com/item/1005006910254678.html).
 
 | Part | Value | Package | PART_NUMBER | Price €|
 |:--- |:--- |:--- |:--- |:--- |
