@@ -204,28 +204,28 @@
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
 <package name="SOIC127P600X175-14N">
-<description>&lt;b&gt;14-pin SOIC150&lt;/b&gt;&lt;br&gt;
+<description>&lt;b&gt;14 Lead Small Outline (SL) Narrow SOIC&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-2.712" y="3.81" dx="1.525" dy="0.7" layer="1"/>
-<smd name="2" x="-2.712" y="2.54" dx="1.525" dy="0.7" layer="1"/>
-<smd name="3" x="-2.712" y="1.27" dx="1.525" dy="0.7" layer="1"/>
-<smd name="4" x="-2.712" y="0" dx="1.525" dy="0.7" layer="1"/>
-<smd name="5" x="-2.712" y="-1.27" dx="1.525" dy="0.7" layer="1"/>
-<smd name="6" x="-2.712" y="-2.54" dx="1.525" dy="0.7" layer="1"/>
-<smd name="7" x="-2.712" y="-3.81" dx="1.525" dy="0.7" layer="1"/>
-<smd name="8" x="2.712" y="-3.81" dx="1.525" dy="0.7" layer="1"/>
-<smd name="9" x="2.712" y="-2.54" dx="1.525" dy="0.7" layer="1"/>
-<smd name="10" x="2.712" y="-1.27" dx="1.525" dy="0.7" layer="1"/>
-<smd name="11" x="2.712" y="0" dx="1.525" dy="0.7" layer="1"/>
-<smd name="12" x="2.712" y="1.27" dx="1.525" dy="0.7" layer="1"/>
-<smd name="13" x="2.712" y="2.54" dx="1.525" dy="0.7" layer="1"/>
-<smd name="14" x="2.712" y="3.81" dx="1.525" dy="0.7" layer="1"/>
+<smd name="1" x="-2.7" y="3.81" dx="1.5" dy="0.65" layer="1"/>
+<smd name="2" x="-2.7" y="2.54" dx="1.5" dy="0.65" layer="1"/>
+<smd name="3" x="-2.7" y="1.27" dx="1.5" dy="0.65" layer="1"/>
+<smd name="4" x="-2.7" y="0" dx="1.5" dy="0.65" layer="1"/>
+<smd name="5" x="-2.7" y="-1.27" dx="1.5" dy="0.65" layer="1"/>
+<smd name="6" x="-2.7" y="-2.54" dx="1.5" dy="0.65" layer="1"/>
+<smd name="7" x="-2.7" y="-3.81" dx="1.5" dy="0.65" layer="1"/>
+<smd name="8" x="2.7" y="-3.81" dx="1.5" dy="0.65" layer="1"/>
+<smd name="9" x="2.7" y="-2.54" dx="1.5" dy="0.65" layer="1"/>
+<smd name="10" x="2.7" y="-1.27" dx="1.5" dy="0.65" layer="1"/>
+<smd name="11" x="2.7" y="0" dx="1.5" dy="0.65" layer="1"/>
+<smd name="12" x="2.7" y="1.27" dx="1.5" dy="0.65" layer="1"/>
+<smd name="13" x="2.7" y="2.54" dx="1.5" dy="0.65" layer="1"/>
+<smd name="14" x="2.7" y="3.81" dx="1.5" dy="0.65" layer="1"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-3.725" y1="4.625" x2="3.725" y2="4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="4.625" x2="3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="3.725" y1="-4.625" x2="-3.725" y2="-4.625" width="0.05" layer="51"/>
-<wire x1="-3.725" y1="-4.625" x2="-3.725" y2="4.625" width="0.05" layer="51"/>
+<wire x1="-3.7" y1="4.575" x2="3.7" y2="4.575" width="0.05" layer="51"/>
+<wire x1="3.7" y1="4.575" x2="3.7" y2="-4.575" width="0.05" layer="51"/>
+<wire x1="3.7" y1="-4.575" x2="-3.7" y2="-4.575" width="0.05" layer="51"/>
+<wire x1="-3.7" y1="-4.575" x2="-3.7" y2="4.575" width="0.05" layer="51"/>
 <wire x1="-1.95" y1="4.325" x2="1.95" y2="4.325" width="0.1" layer="51"/>
 <wire x1="1.95" y1="4.325" x2="1.95" y2="-4.325" width="0.1" layer="51"/>
 <wire x1="1.95" y1="-4.325" x2="-1.95" y2="-4.325" width="0.1" layer="51"/>
@@ -235,7 +235,7 @@
 <wire x1="1.6" y1="4.325" x2="1.6" y2="-4.325" width="0.2" layer="21"/>
 <wire x1="1.6" y1="-4.325" x2="-1.6" y2="-4.325" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
-<wire x1="-3.475" y1="4.51" x2="-1.95" y2="4.51" width="0.2" layer="21"/>
+<wire x1="-3.45" y1="4.485" x2="-1.95" y2="4.485" width="0.2" layer="21"/>
 </package>
 <package name="SOT95P280X145-6N">
 <description>&lt;b&gt;**6-Lead SOT-23 Package Outline and Recommended Land Pattern&lt;/b&gt;&lt;br&gt;
@@ -407,7 +407,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="ATTINY804-SSNR">
+<symbol name="ATTINY1604-SSN">
 <wire x1="5.08" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-17.78" x2="38.1" y2="2.54" width="0.254" layer="94"/>
 <wire x1="38.1" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
@@ -592,11 +592,11 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATTINY804-SSNR" prefix="IC">
-<description>&lt;b&gt;8-bit Microcontrollers - MCU 20MHz, 8KB, SOIC14, Ind 105C, Green, T&amp;R&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ATTINY804-SSNR.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="ATTINY1604-SSN" prefix="IC">
+<description>&lt;b&gt;8-bit Microcontrollers - MCU 20MHz, 16KB, SOIC14, Ind 105C, Green, Tube&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/eaab196c485c39f061614dd847a70670.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="ATTINY804-SSNR" x="0" y="0"/>
+<gate name="G$1" symbol="ATTINY1604-SSN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC127P600X175-14N">
@@ -618,12 +618,12 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/ATTINY804-SSN
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="8-bit Microcontrollers - MCU 20MHz, 8KB, SOIC14, Ind 105C, Green, T&amp;R" constant="no"/>
+<attribute name="DESCRIPTION" value="8-bit Microcontrollers - MCU 20MHz, 16KB, SOIC14, Ind 105C, Green, Tube" constant="no"/>
 <attribute name="HEIGHT" value="1.75mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Microchip" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ATTINY804-SSNR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="556-ATTINY804-SSNR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY804-SSNR?qs=T3oQrply3y%252BBKoVZpNVlTw%3D%3D" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ATTINY1604-SSN" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="556-ATTINY1604-SSN" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATTINY1604-SSN?qs=T3oQrply3y8tu5s3g%2F7NqA%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5915,7 +5915,7 @@ DIN A3, landscape with extra doc field</description>
 </groups>
 <parts>
 <part name="FADER" library="Slider" deviceset="SM10001NKA0X-HA1" device="" value="MF100T"/>
-<part name="IC1" library="SamacSys_Parts" deviceset="ATTINY804-SSNR" device=""/>
+<part name="IC1" library="SamacSys_Parts" deviceset="ATTINY1604-SSN" device=""/>
 <part name="IC2" library="SamacSys_Parts" deviceset="AT42QT1010-TSHR" device="" value="AT42QT1010"/>
 <part name="LED1" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>
 <part name="LED2" library="SamacSys_Parts" deviceset="150080GS75000" device=""/>

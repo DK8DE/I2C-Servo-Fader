@@ -31,10 +31,10 @@ The LED color transitions smoothly between these values based on the analog valu
 
 // I2C addresses of the faders
 #define FADER1_I2C_ADDRESS 0x08
-#define FADER2_I2C_ADDRESS 0x09
+// #define FADER2_I2C_ADDRESS 0x09
 
 I2cServoFader fader1(FADER1_I2C_ADDRESS);
-I2cServoFader fader2(FADER2_I2C_ADDRESS);  // Commented out for now
+// I2cServoFader fader2(FADER2_I2C_ADDRESS);  // Commented out for now
 
 volatile bool interruptOccurred = false;
 
@@ -59,8 +59,13 @@ void updateLEDColor(I2cServoFader &fader, uint8_t analogValue) {
   uint8_t green = map(analogValue, 0, 255, 255, 0);
   uint8_t blue = 0;
 
-  fader.setColor(red, green, blue);
-  fader.setBrightness(60);
+  // Turn the LED on at startup
+  setLedState(fader1, true);
+  //setLedState(fader2, true);
+
+  //Set LED color
+  fader.setLedColor(red, green, blue);
+  fader.setLedBrightness(60);
 }
 
 /************************************************************************************/
@@ -99,6 +104,20 @@ void demonstrateFaderMovement(I2cServoFader &fader) {
 
 /************************************************************************************/
 /*!
+@brief Sets the LED on or off
+@param on If true, turns the LED on; if false, turns the LED off
+*/
+/************************************************************************************/
+void setLedState(I2cServoFader &fader, bool on) {
+  if (on) {
+    fader.setLedState(1);
+  } else {
+    fader.setLedState(0);
+  }
+}
+
+/************************************************************************************/
+/*!
 @brief Setup function for initializing faders and serial communication
 
 - Initializes the I2C communication for both faders
@@ -112,6 +131,11 @@ void setup() {
   // Initialize the I2C communication for both faders
   fader1.begin();
   // fader2.begin();  // Commented out for now
+
+  // Set I2C clock speed to 400 kHz
+  Wire.setClock(400000);
+  
+
 
   // Set the interrupt pin
   pinMode(2, INPUT_PULLUP);
@@ -139,26 +163,24 @@ void loop() {
     uint8_t analogValue1 = fader1.readAnalogValue();
     uint8_t optioState1 = fader1.readOptio();
 
-    // Print the read values to the serial console
-    if (Serial.available()) {
-      Serial.print("Fader 1 - Analog value: ");
-      Serial.println(analogValue1);
-      Serial.print("Fader 1 - OPTIO state: ");
-      Serial.println(optioState1);
-    }
-    
+    // Print the read values to the serial console (Commented out for now)
+    /* 
+    Serial.print("Fader 1 - Analog value: ");
+    Serial.println(analogValue1);
+    Serial.print("Fader 1 - OPTIO state: ");
+    Serial.println(optioState1);
+    */
+
     // Read analog value and optio register from fader2 (Commented out for now)
     /*
     uint8_t analogValue2 = fader2.readAnalogValue();
     uint8_t optioState2 = fader2.readOptio();
     
     // Print the read values to the serial console
-    if (Serial.available()) {
       Serial.print("Fader 2 - Analog value: ");
       Serial.println(analogValue2);
       Serial.print("Fader 2 - OPTIO state: ");
       Serial.println(optioState2);
-    }
 
     // Update LED colors based on analog values
     updateLEDColor(fader2, analogValue2);
@@ -206,6 +228,4 @@ void loop() {
       */
     }
   }
-
-  delay(100); // Small delay to prevent overwhelming the I2C bus
 }

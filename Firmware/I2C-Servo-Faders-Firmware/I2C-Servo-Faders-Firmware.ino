@@ -39,14 +39,15 @@ void updateAnalogValue();
 void stopMotor();
 void shortBrake();
 void standby();
-void rotateMotorClockwise();
-void rotateMotorCounterclockwise();
+void rotateMotorClockwise(uint8_t pwm);
+void rotateMotorCounterclockwise(uint8_t pwm);
+void moveMotorToPosition();
 
-uint8_t registers[REGISTER_COUNT] = { 1,    //!< LED ON OFF 1=ON 0=OFF
-                                      50,   //!< LED RED
-                                      50,   //!< LED GREEN
-                                      50,   //!< LED BLUE
-                                      50,   //!< LED Brightness
+uint8_t registers[REGISTER_COUNT] = { 0,    //!< LED ON OFF 1=ON 0=OFF
+                                      0,    //!< LED RED
+                                      0,    //!< LED GREEN
+                                      0,    //!< LED BLUE
+                                      0,    //!< LED Brightness
                                       0,    //!< Initial value for ANALOG_VALUE register
                                       0,    //!< Initial value for TOUCH register
                                       0,    //!< Initial value for OPTIO_READ register
@@ -61,7 +62,7 @@ void setup() {
 
   // Load the stored I2C address from the EEPROM
   i2cAddress = EEPROM.read(EEPROM_I2C_ADDRESS);
-  if (i2cAddress == 0xFF) {  // No valid address stored
+  if (i2cAddress == 0xFF || i2cAddress < 0x08) {  // No valid address stored or address less than 0x08
     i2cAddress = DEFAULT_I2C_ADDRESS;
   }
 
@@ -73,9 +74,6 @@ void setup() {
   // NeoPixel setup
   pixels.begin();
   pixels.setBrightness(255);
-
-  // Set the LED based on the initial register values
-  setLED();
 
   // Initialize the analog pin
   pinMode(ANALOG_PIN, INPUT);
@@ -101,10 +99,17 @@ void setup() {
   stopMotor();
 
   // Display the current I2C address
-  Serial.print("Current I2C Address: 0x");
+  Serial.print(F("I2C Addr: 0x"));
   Serial.println(i2cAddress, HEX);
 
-  Serial.println("Enter new I2C address in HEX (e.g., 0x09) and press Enter:");
+  Serial.println(F("Enter new I2C addr in HEX (e.g., 0x09) and press Enter:"));
+
+  // Turn on the LED to green for 1 second on startup
+  pixels.setPixelColor(0, pixels.Color(0, 255, 0)); // Green
+  pixels.show();
+  delay(1000);
+  pixels.setPixelColor(0, pixels.Color(0, 0, 0)); // Off
+  pixels.show();
 }
 
 void loop() {
@@ -134,18 +139,17 @@ void loop() {
   if (Serial.available()) {
     String input = Serial.readStringUntil('\n');
     input.trim();  // Remove whitespace and newline characters
+
     if (input.startsWith("0x")) {
       uint8_t newAddress = strtol(input.c_str(), NULL, 16);
-      if (newAddress >= 1 && newAddress <= 127) {  // Valid I2C addresses: 1-127
+      if (newAddress >= 0x08 && newAddress <= 127) {  // Valid I2C addresses: 0x08-0x7F
         EEPROM.write(EEPROM_I2C_ADDRESS, newAddress);
-        Serial.print("New I2C Address saved: 0x");
+        Serial.print(F("New I2C Addr: 0x"));
         Serial.println(newAddress, HEX);
-        Serial.println("Please restart the Arduino for the new address to take effect.");
+        Serial.println(F("Restart Arduino for new addr."));
       } else {
-        Serial.println("Invalid address. Please enter a value between 0x01 and 0x7F.");
+        Serial.println(F("Addr must be 0x08-0x7F."));
       }
-    } else {
-      Serial.println("Invalid format. Please enter the address in HEX format (e.g., 0x09).");
     }
   }
 
@@ -194,6 +198,11 @@ void receiveEvent(int howMany) {
     uint8_t value = Wire.read();
     registers[reg] = value;
     setLED();  // Set the LED after each register update
+
+    // Only move motor when REGISTER_SET_POSITION is updated
+    if (reg == REGISTER_SET_POSITION) {
+      moveMotorToPosition();
+    }
   }
 }
 
@@ -246,7 +255,6 @@ void updateAnalogValue() {
 /************************************************************************************/
 void stopMotor() {
   shortBrake();
-  delay(10);
   standby();
 }
 
@@ -278,26 +286,62 @@ void standby() {
 
 /************************************************************************************/
 /*!
-@brief Rotates the motor clockwise by setting DIR_PIN1 to HIGH, DIR_PIN2 to LOW, and setting the PWM signal to 255
+@brief Rotates the motor clockwise by setting DIR_PIN1 to HIGH, DIR_PIN2 to LOW, and setting the PWM signal to the specified value
+@param pwm The PWM value to set (0-255)
 @return none
 */
 /************************************************************************************/
-void rotateMotorClockwise() {
+void rotateMotorClockwise(uint8_t pwm) {
   digitalWrite(DIR_PIN1, HIGH);
   digitalWrite(DIR_PIN2, LOW);
-  analogWrite(PWM_PIN, 255);
+  analogWrite(PWM_PIN, pwm);
   digitalWrite(STBY, HIGH);
 }
 
 /************************************************************************************/
 /*!
-@brief Rotates the motor counterclockwise by setting DIR_PIN1 to LOW, DIR_PIN2 to HIGH, and setting the PWM signal to 255
+@brief Rotates the motor counterclockwise by setting DIR_PIN1 to LOW, DIR_PIN2 to HIGH, and setting the PWM signal to the specified value
+@param pwm The PWM value to set (0-255)
 @return none
 */
 /************************************************************************************/
-void rotateMotorCounterclockwise() {
+void rotateMotorCounterclockwise(uint8_t pwm) {
   digitalWrite(DIR_PIN1, LOW);
   digitalWrite(DIR_PIN2, HIGH);
-  analogWrite(PWM_PIN, 255);
+  analogWrite(PWM_PIN, pwm);
   digitalWrite(STBY, HIGH);
+}
+
+/************************************************************************************/
+/*!
+@brief Moves the motor to the position specified in REGISTER_SET_POSITION
+@return none
+*/
+/************************************************************************************/
+void moveMotorToPosition() {
+  uint8_t targetPosition = registers[REGISTER_SET_POSITION];
+  uint8_t currentPosition = registers[REGISTER_ANALOG_VALUE];
+  uint8_t pwm = 0;
+
+  while (currentPosition != targetPosition) {
+    currentPosition = registers[REGISTER_ANALOG_VALUE];
+    int16_t difference = targetPosition - currentPosition;
+    if (abs(difference) > 30) {
+      pwm = 255;  // Full speed
+    } else if (abs(difference) > 10) {
+      pwm = 128;  // Medium speed
+    } else {
+      pwm = 64;  // Low speed
+    }
+
+    if (currentPosition < targetPosition) {
+      rotateMotorClockwise(pwm);
+    } else if (currentPosition > targetPosition) {
+      rotateMotorCounterclockwise(pwm);
+    }
+
+    updateAnalogValue();
+  }
+
+  stopMotor();
 }
