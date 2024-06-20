@@ -76,7 +76,7 @@ You can find them on AliExpress here: [RSA0N11M9A0J](https://de.aliexpress.com/i
 | LED1 | 150080GS75000 | LEDM2012X80N | 150080GS75000 | 0.18 |
 | LED2 | 150080GS75000 | LEDM2012X80N | 150080GS75000 | 0.18 |
 | LED3 | 150080YS75000 | LEDC2012X80N | 150080YS75000 | 0.18 |
-| R1 | 0K | R0805 | OPT | 0.08 |
+| R1 | 0R | R0805 | OPT | 0.08 |
 | R2 | 1K | R0805 | | 0.08 |
 | R3 | 470R | R0805 | | 0.08 | 
 | R4 | 10K | R0805 | | 0.08 |
